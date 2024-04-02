@@ -1,0 +1,3 @@
+<h2><u>{{title}}!</u></h2>
+<p> current count is {{Counter}} </p>
+<app-child-component [count]=Counter (countChanged)="countChangedHandler($event)"></app-child-component>
